@@ -184,3 +184,10 @@ Code open source sous licence MIT.
 ## 👥 Équipe
 
 Projet réalisé dans le cadre du module IA générative — Ynov Campus 2024/2025.
+
+| Nom | Prénom |
+|-----|--------|
+| ISNARD | Sacha |
+| ROLLAND | Dylan |
+| GONZALEZ | Anthony |
+| HADDADA | Yassine |
