@@ -120,7 +120,8 @@ vercel --prod
 ├── api/
 │   └── chat.ts              # API serverless — chatbot Groq
 ├── public/
-│   └── favicon.svg          # Icône de l'app
+│   |── favicon.svg          # Icône de l'app
+│   └── images/              # Images IA
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.tsx       # Navigation fixe avec scroll effect
