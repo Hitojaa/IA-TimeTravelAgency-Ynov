@@ -180,7 +180,7 @@ export default function Chatbot() {
                     <div className="flex items-center gap-1.5">
                       <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
                       <span className="text-xs text-green-400">
-                        En ligne — IA Claude
+                        En ligne — IA Groq
                       </span>
                     </div>
                   </div>

@@ -34,7 +34,7 @@ export const destinations: Destination[] = [
       'Embarquez pour la plus grande aventure de l\'histoire de l\'humanité. Depuis nos observatoires blindés de dernière génération, contemplez les dinosaures évoluer dans un monde vierge de toute présence humaine. Tyrannosaurus Rex, Triceratops, Brachiosaurus... une faune spectaculaire vous attend dans des paysages à couper le souffle.',
     price: 25000,
     duration: '5 jours',
-    image: 'https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=800&h=500&fit=crop&q=80',
+    image: 'https://images.unsplash.com/photo-1569380927756-59a8a7b2e6f4?w=800&h=500&fit=crop&q=80',
     accentColor: '#4a7c3f',
     tags: ['Nature', 'Aventure', 'Science'],
     highlights: [

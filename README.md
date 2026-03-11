@@ -2,7 +2,7 @@
 
 > Projet pédagogique M1 Digital & IA — Ynov Campus
 
-Webapp moderne et interactive pour une agence de voyage temporel fictive, développée avec IA générative (Claude Code + Claude API).
+Webapp moderne et interactive pour une agence de voyage temporel fictive, développée avec IA générative (Claude Code + Groq API).
 
 ---
 
@@ -21,7 +21,7 @@ Webapp moderne et interactive pour une agence de voyage temporel fictive, dével
 - ✅ Thème sombre avec accents dorés (design luxe)
 
 ### Phase 3 — Intelligence Artificielle
-- ✅ **Agent conversationnel** — Chatbot IA intégré propulsé par Claude (Anthropic)
+- ✅ **Agent conversationnel** — Chatbot IA intégré propulsé par Groq
   - Widget flottant bas-droite
   - Conversation multi-tours avec contexte
   - Suggestions de questions
@@ -47,8 +47,8 @@ Webapp moderne et interactive pour une agence de voyage temporel fictive, dével
 | Styles | Tailwind CSS 3 |
 | Animations | Framer Motion 11 |
 | Icônes | Lucide React |
-| Backend API | Vercel Serverless Functions (Node.js 20) |
-| IA Chatbot | Claude (Anthropic) — modèle `claude-opus-4-6` |
+| Backend API | Vercel Serverless Functions (Node.js) |
+| IA Chatbot | Groq API — modèle `llama-3.3-70b` |
 | Déploiement | Vercel |
 
 ---
@@ -58,7 +58,7 @@ Webapp moderne et interactive pour une agence de voyage temporel fictive, dével
 ### Prérequis
 - Node.js 18+
 - Un compte Vercel (gratuit)
-- Une clé API Anthropic ([console.anthropic.com](https://console.anthropic.com))
+- Une clé API Groq ([console.groq.com](https://console.groq.com))
 
 ### 1. Cloner le projet
 ```bash
@@ -74,7 +74,7 @@ npm install
 ### 3. Configurer les variables d'environnement
 ```bash
 cp .env.example .env
-# Éditer .env et ajouter votre clé ANTHROPIC_API_KEY
+# Éditer .env et ajouter votre clé GROQ_API_KEY
 ```
 
 ### 4. Lancer en développement
@@ -101,7 +101,7 @@ npm run build
 2. Aller sur [vercel.com](https://vercel.com) → "Add New Project"
 3. Importer le repo GitHub
 4. Dans "Environment Variables", ajouter :
-   - `ANTHROPIC_API_KEY` = votre clé API
+   - `GROQ_API_KEY` = votre clé API
 5. Cliquer "Deploy" 🎉
 
 ### Option B — CLI
@@ -118,7 +118,7 @@ vercel --prod
 
 ```
 ├── api/
-│   └── chat.ts              # API serverless — chatbot Claude
+│   └── chat.ts              # API serverless — chatbot Groq
 ├── public/
 │   └── favicon.svg          # Icône de l'app
 ├── src/
@@ -153,8 +153,15 @@ vercel --prod
 | Usage | Outil / Modèle |
 |-------|----------------|
 | Génération du code | Claude Code (Anthropic) |
-| Chatbot temps réel | Claude `claude-opus-4-6` via API Anthropic |
-| Quiz — recommandation IA | Claude `claude-opus-4-6` via API Anthropic |
+| Chatbot temps réel | Groq — modèle `llama-3.3-70b` |
+| Quiz — recommandation IA | Groq — modèle `llama-3.3-70b` |
+
+---
+
+## 🖼️ Images
+
+Les images des destinations sont actuellement hébergées sur Unsplash.
+Pour utiliser tes propres images générées par IA, place-les dans le dossier `public/images/` et mets à jour les URLs dans `src/data/destinations.ts`.
 
 ---
 
