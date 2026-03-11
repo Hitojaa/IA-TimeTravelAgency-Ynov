@@ -356,7 +356,7 @@ export default function Chatbot() {
                   </button>
                 </div>
                 <p className="text-xs text-gray-700 mt-2 text-center">
-                  Propulsé par Claude AI (Anthropic)
+                  Propulsé par Groq AI — Llama 3.3
                 </p>
               </div>
             </motion.div>
