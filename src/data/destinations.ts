@@ -12,7 +12,7 @@ export const destinations: Destination[] = [
       'Rejoignez Paris au moment de son apogée artistique et culturelle. L\'Exposition Universelle bat son plein, la Tour Eiffel vient d\'être inaugurée et les cafés bruissent de l\'effervescence d\'une époque dorée. Côtoyez les impressionnistes, flânez sur les Grands Boulevards et découvrez une ville en pleine métamorphose.',
     price: 15000,
     duration: '7 jours',
-    image: '../images/Paris.png',
+    image: '/images/Paris.png',
     accentColor: '#c9a227',
     tags: ['Culture', 'Architecture', 'Gastronomie'],
     highlights: [
@@ -34,7 +34,7 @@ export const destinations: Destination[] = [
       'Embarquez pour la plus grande aventure de l\'histoire de l\'humanité. Depuis nos observatoires blindés de dernière génération, contemplez les dinosaures évoluer dans un monde vierge de toute présence humaine. Tyrannosaurus Rex, Triceratops, Brachiosaurus... une faune spectaculaire vous attend dans des paysages à couper le souffle.',
     price: 25000,
     duration: '5 jours',
-    image: '../images/Cretace.png',
+    image: '/images/Cretace.png',
     accentColor: '#4a7c3f',
     tags: ['Nature', 'Aventure', 'Science'],
     highlights: [
@@ -56,7 +56,7 @@ export const destinations: Destination[] = [
       'La Florence des Médicis est à son zénith. Michel-Ange vient d\'achever son David, Léonard de Vinci peaufine ses inventions révolutionnaires, et Botticelli illumine les murs des palais. Assistez à la naissance de l\'art moderne, participez à des banquets médicéens et explorez les ateliers des plus grands génies que l\'humanité ait connus.',
     price: 18000,
     duration: '6 jours',
-    image: '../images/Florence.png',
+    image: '/images/Florence.png',
     accentColor: '#9b59b6',
     tags: ['Art', 'Histoire', 'Architecture'],
     highlights: [
